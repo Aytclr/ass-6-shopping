@@ -1,1 +1,0 @@
-# ass-6-shopping
