@@ -1,10 +1,7 @@
-// fetchData fonksiyonunu import ediyoruz
+
 import fetchData from './src/fetchData';
 
-// Fonksiyonu çağırıyoruz
-fetchData().then(data => {
-  console.log('Received data:', data);
-});
+
 
 
 
@@ -18,15 +15,18 @@ const addBtn = document.querySelector(".addbtn"); // card içerisinde ki ekle bt
 
 const detailBtn = document.querySelector(".detailbtn"); // card içerisinde ki ekle btn
 
-console.log(btn);
-console.log(searchInput);
-console.log(addBtn);
-console.log(detailBtn);
+// console.log(btn);
+// console.log(searchInput);
+// console.log(addBtn);
+// console.log(detailBtn);
 
 
 //! PULLING FROM API
 
-
+fetchData().then(data => {
+    console.log('Received data:', data);
+  });
+  
 
 
 
