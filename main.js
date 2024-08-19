@@ -1,4 +1,10 @@
+// fetchData fonksiyonunu import ediyoruz
+import fetchData from './src/fetchData';
 
+// Fonksiyonu çağırıyoruz
+fetchData().then(data => {
+  console.log('Received data:', data);
+});
 
 
 
